@@ -11,7 +11,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-2.5-pro" });
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Replace with your frontend URL
+  origin: "https://unrivaled-pavlova-694117.netlify.app/", // Replace with your frontend URL
 };
 app.use(cors(corsOptions));
 // Initialize the chat session with the correct history format

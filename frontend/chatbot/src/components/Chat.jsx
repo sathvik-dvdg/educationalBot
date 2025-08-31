@@ -20,7 +20,7 @@ const Chat = () => {
   const sendMessage = async (messageContent) => {
     // This is a placeholder for a real API call.
     // Replace with your actual chatbot logic.
-    const res = await axios.post(`http://localhost:5111`, {
+    const res = await axios.post("https://educational-bot-qk97.onrender.com", {
       message: messageContent,
     });
     return res.data;
