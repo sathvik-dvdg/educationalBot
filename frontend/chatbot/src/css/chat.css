@@ -141,7 +141,7 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: pre-wrap;
-  line-height: 0.3;
+  line-height: 0.65;
 }
 
 .message.user {
@@ -182,6 +182,8 @@ body {
 .input-area input {
   flex-grow: 1;
   padding: 12px;
+  height: 40px;
+  font-size: 16px;
   border: none;
   border-radius: 25px;
   background-color: var(--assistant-bubble-color);
